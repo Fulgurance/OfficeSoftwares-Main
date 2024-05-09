@@ -14,7 +14,7 @@ class Target < ISM::Software
                         "--without-system-dicts",
                         "--disable-dconf",
                         "--disable-odk",
-                        "--without-java"
+                        "--without-java",
                         "--enable-release-build=yes",
                         "--enable-python=system",
                         "--with-jdk-home=/opt/jdk",
