@@ -6,7 +6,7 @@ class Target < ISM::Software
         runScript(      "autogen.sh",
                     [   "--prefix=/usr",
                         "--sysconfdir=/etc",
-                        "--with-vendor=#{Ism.systemName}",
+                        "--with-vendor=#{Ism.settings.systemName}",
                         "--with-lang=\'en-GB\'",
                         "--with-help",
                         "--with-myspell-dicts",
