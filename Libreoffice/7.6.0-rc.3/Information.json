@@ -2,36 +2,39 @@
   "port": "OfficeSoftwares-Main",
   "name": "Libreoffice",
   "version": "7.6.0-rc.3",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Free and powerful office suite",
   "website": "https://www.libreoffice.org/",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "BaseLibraries-Main",
       "name": "Archive-Zip",
-      "version": "1.68.0",
+      "version": ">=1.68.0",
       "options": []
     },
     {
+      "port": "Archivers-Main",
       "name": "Unzip",
-      "version": "6.0.0",
+      "version": ">=6.0.0",
       "options": []
     },
     {
+      "port": "NetworkingSoftwares-Main",
       "name": "Wget",
-      "version": "1.21.4",
+      "version": ">=1.21.4",
       "options": []
     },
     {
+      "port": "Utilities-Main",
       "name": "Which",
-      "version": "2.21.0",
+      "version": ">=2.21.0",
       "options": []
     },
     {
+      "port": "Archivers-Main",
       "name": "Zip",
-      "version": "3.0.0",
+      "version": ">=3.0.0",
       "options": []
     }
   ],
@@ -43,8 +46,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "ProgrammingTools-Main",
           "name": "Apache-Ant",
-          "version": "1.10.14",
+          "version": ">=1.10.14",
           "options": []
         }
       ],
@@ -56,8 +60,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Boost",
-          "version": "1.83.0",
+          "version": ">=1.83.0",
           "options": []
         }
       ],
@@ -69,8 +74,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Clucene-Core",
-          "version": "2.3.3-r.4",
+          "version": ">=2.3.3-r.4",
           "options": []
         }
       ],
@@ -82,8 +88,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Cups",
-          "version": "2.4.6",
+          "version": ">=2.4.6",
           "options": []
         }
       ],
@@ -95,8 +102,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "NetworkingLibraries-Main",
           "name": "Curl",
-          "version": "8.2.1",
+          "version": ">=8.2.1",
           "options": []
         }
       ],
@@ -108,8 +116,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Dbus-Glib",
-          "version": "0.112.0",
+          "version": ">=0.112.0",
           "options": []
         }
       ],
@@ -121,8 +130,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Libepoxy",
-          "version": "1.5.10",
+          "version": ">=1.5.10",
           "options": []
         }
       ],
@@ -134,6 +144,7 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Libjpeg-Turbo",
           "version": "3.0.0",
           "options": []
@@ -147,8 +158,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "ProgrammingLanguages-Main",
           "name": "Llvm",
-          "version": "16.0.5",
+          "version": ">=16.0.5",
           "options": []
         }
       ],
@@ -160,8 +172,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Glm",
-          "version": "0.9.9-rc.8",
+          "version": ">=0.9.9-rc.8",
           "options": []
         }
       ],
@@ -173,8 +186,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Glu",
-          "version": "9.0.3",
+          "version": ">=9.0.3",
           "options": []
         }
       ],
@@ -186,8 +200,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "SecurityLibraries-Main",
           "name": "Gpgme",
-          "version": "1.21.0",
+          "version": ">=1.21.0",
           "options": []
         }
       ],
@@ -199,8 +214,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Graphite2",
-          "version": "1.3.14",
+          "version": ">=1.3.14",
           "options": []
         }
       ],
@@ -212,8 +228,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaLibraries-Main",
           "name": "Gst-Plugins-Base",
-          "version": "1.22.5",
+          "version": ">=1.22.5",
           "options": []
         }
       ],
@@ -225,8 +242,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Gtk+",
-          "version": "3.24.38",
+          "version": ">=3.24.38",
           "options": []
         }
       ],
@@ -238,8 +256,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Harfbuzz",
-          "version": "8.1.1",
+          "version": ">=8.1.1",
           "options": []
         }
       ],
@@ -251,8 +270,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Icu",
-          "version": "73.2.0",
+          "version": ">=73.2.0",
           "options": []
         }
       ],
@@ -264,8 +284,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "LibatomicOps",
-          "version": "7.8.0",
+          "version": ">=7.8.0",
           "options": []
         }
       ],
@@ -277,8 +298,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Lcms2",
-          "version": "2.14.0",
+          "version": ">=2.14.0",
           "options": []
         }
       ],
@@ -290,8 +312,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Librsvg",
-          "version": "2.56.3",
+          "version": ">=2.56.3",
           "options": []
         }
       ],
@@ -303,8 +326,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Libtiff",
-          "version": "4.5.1",
+          "version": ">=4.5.1",
           "options": []
         }
       ],
@@ -316,8 +340,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Libwebp",
-          "version": "1.3.1",
+          "version": ">=1.3.1",
           "options": []
         }
       ],
@@ -329,8 +354,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Libxml2",
-          "version": "2.10.4",
+          "version": ">=2.10.4",
           "options": []
         }
       ],
@@ -342,8 +368,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Libxslt",
-          "version": "1.1.38",
+          "version": ">=1.1.38",
           "options": []
         }
       ],
@@ -355,8 +382,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Lxml",
-          "version": "4.9.3",
+          "version": ">=4.9.3",
           "options": []
         }
       ],
@@ -368,8 +396,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Mesa",
-          "version": "23.1.6",
+          "version": ">=23.1.6",
           "options": []
         }
       ],
@@ -381,8 +410,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "SecurityLibraries-Main",
           "name": "Nss",
-          "version": "3.92.0",
+          "version": ">=3.92.0",
           "options": []
         }
       ],
@@ -394,8 +424,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Openldap",
-          "version": "2.6.6",
+          "version": ">=2.6.6",
           "options": []
         }
       ],
@@ -407,8 +438,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "GraphicsLibraries-Main",
           "name": "Poppler",
-          "version": "23.8.0",
+          "version": ">=23.8.0",
           "options": []
         }
       ],
@@ -420,8 +452,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "DatabaseLibraries-Main",
           "name": "Postgresql",
-          "version": "15.4.0",
+          "version": ">=15.4.0",
           "options": []
         }
       ],
@@ -433,8 +466,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Redland",
-          "version": "1.0.17",
+          "version": ">=1.0.17",
           "options": []
         }
       ],
@@ -446,8 +480,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "DatabaseLibraries-Main",
           "name": "UnixOdbc",
-          "version": "2.3.12",
+          "version": ">=2.3.12",
           "options": []
         }
       ],
@@ -459,8 +494,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "NetworkingTools-Extra",
           "name": "Avahi",
-          "version": "0.8.0",
+          "version": ">=0.8.0",
           "options": []
         }
       ],
@@ -472,8 +508,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Bluez",
-          "version": "5.68.0",
+          "version": ">=5.68.0",
           "options": []
         }
       ],
@@ -485,8 +522,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Dconf",
-          "version": "0.40.0",
+          "version": ">=0.40.0",
           "options": []
         }
       ],
@@ -498,8 +536,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Desktop-File-Utils",
-          "version": "0.26.0",
+          "version": ">=0.26.0",
           "options": []
         }
       ],
@@ -511,8 +550,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Doxygen",
-          "version": "1.9.7",
+          "version": ">=1.9.7",
           "options": []
         }
       ],
@@ -524,8 +564,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "DatabaseLibraries-Main",
           "name": "Evolution-Data-Server",
-          "version": "3.48.4",
+          "version": ">=3.48.4",
           "options": []
         }
       ],
@@ -537,8 +578,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "ProgrammingTools-Main",
           "name": "Gdb",
-          "version": "13.2.0",
+          "version": ">=13.2.0",
           "options": []
         }
       ],
@@ -550,8 +592,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "SecurityLibraries-Main",
           "name": "Gnutls",
-          "version": "3.8.1",
+          "version": ">=3.8.1",
           "options": []
         }
       ],
@@ -563,8 +606,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "KdeBase-Main",
           "name": "Kde-Frameworks",
-          "version": "5.109.0",
+          "version": ">=5.109.0",
           "options": []
         }
       ],
@@ -576,8 +620,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Libpaper",
-          "version": "2.1.1",
+          "version": ">=2.1.1",
           "options": []
         }
       ],
@@ -589,21 +634,23 @@
       "active": false,
       "dependencies": [
         {
+          "port": "DatabaseLibraries-Main",
           "name": "Mariadb",
-          "version": "10.11.4",
+          "version": ">=10.11.4",
           "options": []
         }
       ],
       "kernelDependencies": []
     },
     {
-      "name": "Krb5",
+      "name": "Mit-Krb5",
       "description": "Enable krb5 support",
       "active": false,
       "dependencies": [
         {
-          "name": "Krb5",
-          "version": "1.21.2",
+          "port": "NetworkingTools-Main",
+          "name": "Mit-Krb5",
+          "version": ">=1.21.2",
           "options": []
         }
       ],
@@ -615,8 +662,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "ProgrammingTools-Main",
           "name": "Nasm",
-          "version": "2.16.1",
+          "version": ">=2.16.1",
           "options": []
         }
       ],
@@ -628,8 +676,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Qt",
-          "version": "5.15.10",
+          "version": ">=5.15.10",
           "options": []
         }
       ],
@@ -641,8 +690,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaSoftwares-Main",
           "name": "Sane",
-          "version": "1.0.32",
+          "version": ">=1.0.32",
           "options": []
         }
       ],
@@ -654,8 +704,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "BaseLibraries-Main",
           "name": "Telepathy-Glib",
-          "version": "0.24.2",
+          "version": ">=0.24.2",
           "options": []
         }
       ],
@@ -667,8 +718,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Utilities-Main",
           "name": "Valgrind",
-          "version": "3.21.0",
+          "version": ">=3.21.0",
           "options": []
         }
       ],
@@ -680,8 +732,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "MultimediaSoftwares-Main",
           "name": "Vlc",
-          "version": "3.0.18",
+          "version": ">=3.0.18",
           "options": []
         }
       ],
