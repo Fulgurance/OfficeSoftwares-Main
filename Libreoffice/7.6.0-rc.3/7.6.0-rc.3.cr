@@ -3,7 +3,7 @@ class Target < ISM::Software
     def configure
         super
 
-        runScript(      "autogen.sh",
+        runFile(      "autogen.sh",
                     [   "--prefix=/usr",
                         "--sysconfdir=/etc",
                         "--with-vendor=#{Ism.settings.systemName}",
