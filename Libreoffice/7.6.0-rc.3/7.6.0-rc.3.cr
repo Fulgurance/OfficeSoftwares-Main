@@ -1,4 +1,20 @@
 class Target < ISM::Software
+
+    def prepare
+        super
+
+        makeLink(   target: "src/libreoffice-help-7.6.0.3/helpcontent2",
+                    path:   "#{buildDirectoryPath}/helpcontent2",
+                    type:   :symbolicLinkByOverwrite)
+
+        makeLink(   target: "src/libreoffice-dictionaries-7.6.0.3/dictionaries",
+                    path:   "#{buildDirectoryPath}/dictionaries",
+                    type:   :symbolicLinkByOverwrite)
+
+        makeLink(   target: "src/libreoffice-translations-7.6.0.3/translations",
+                    path:   "#{buildDirectoryPath}/translations",
+                    type:   :symbolicLinkByOverwrite)
+    end
     
     def configure
         super
