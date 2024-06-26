@@ -36,6 +36,114 @@
       "name": "Zip",
       "version": ">=3.0.0",
       "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Clucene-Core",
+      "version": ">=2.3.3-r.4",
+      "options": []
+    },
+    {
+      "port": "NetworkingLibraries-Main",
+      "name": "Curl",
+      "version": ">=8.2.1",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Libepoxy",
+      "version": ">=1.5.10",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Glm",
+      "version": ">=0.9.9-rc.8",
+      "options": []
+    },
+    {
+      "port": "SecurityLibraries-Main",
+      "name": "Gpgme",
+      "version": ">=1.21.0",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Graphite2",
+      "version": ">=1.3.14",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Harfbuzz",
+      "version": ">=8.1.1",
+      "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Icu",
+      "version": ">=73.2.0",
+      "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "LibatomicOps",
+      "version": ">=7.8.0",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Libtiff",
+      "version": ">=4.5.1",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Libwebp",
+      "version": ">=1.3.1",
+      "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Libxml2",
+      "version": ">=2.10.4",
+      "options": []
+    },
+    {
+      "port": "SecurityLibraries-Main",
+      "name": "Nss",
+      "version": ">=3.92.0",
+      "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Openldap",
+      "version": ">=2.6.6",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Poppler",
+      "version": ">=23.8.0",
+      "options": []
+    },
+    {
+      "port": "DatabaseLibraries-Main",
+      "name": "Postgresql",
+      "version": ">=15.4.0",
+      "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Redland",
+      "version": ">=1.0.17",
+      "options": []
+    },
+    {
+      "port": "DatabaseLibraries-Main",
+      "name": "UnixOdbc",
+      "version": ">=2.3.12",
+      "options": []
     }
   ],
   "kernelDependencies": [],
@@ -69,20 +177,6 @@
       "kernelDependencies": []
     },
     {
-      "name": "Clucene-Core",
-      "description": "Enable clucene-core support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "BaseLibraries-Main",
-          "name": "Clucene-Core",
-          "version": ">=2.3.3-r.4",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
       "name": "Cups",
       "description": "Enable cups support",
       "active": false,
@@ -97,20 +191,6 @@
       "kernelDependencies": []
     },
     {
-      "name": "Curl",
-      "description": "Enable curl support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "NetworkingLibraries-Main",
-          "name": "Curl",
-          "version": ">=8.2.1",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
       "name": "Dbus-Glib",
       "description": "Enable dbus-glib support",
       "active": false,
@@ -119,20 +199,6 @@
           "port": "BaseLibraries-Main",
           "name": "Dbus-Glib",
           "version": ">=0.112.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Libepoxy",
-      "description": "Enable libepoxy support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "GraphicsLibraries-Main",
-          "name": "Libepoxy",
-          "version": ">=1.5.10",
           "options": []
         }
       ],
@@ -167,20 +233,6 @@
       "kernelDependencies": []
     },
     {
-      "name": "Glm",
-      "description": "Enable glm support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "GraphicsLibraries-Main",
-          "name": "Glm",
-          "version": ">=0.9.9-rc.8",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
       "name": "Glu",
       "description": "Enable glu support",
       "active": false,
@@ -189,34 +241,6 @@
           "port": "GraphicsLibraries-Main",
           "name": "Glu",
           "version": ">=9.0.3",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Gpgme",
-      "description": "Enable gpgme support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "SecurityLibraries-Main",
-          "name": "Gpgme",
-          "version": ">=1.21.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Graphite2",
-      "description": "Enable graphite2 support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "GraphicsLibraries-Main",
-          "name": "Graphite2",
-          "version": ">=1.3.14",
           "options": []
         }
       ],
@@ -251,48 +275,6 @@
       "kernelDependencies": []
     },
     {
-      "name": "Harfbuzz",
-      "description": "Enable harfbuzz support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "GraphicsLibraries-Main",
-          "name": "Harfbuzz",
-          "version": ">=8.1.1",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Icu",
-      "description": "Enable icu support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "BaseLibraries-Main",
-          "name": "Icu",
-          "version": ">=73.2.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "LibatomicOps",
-      "description": "Enable libatomicops support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "BaseLibraries-Main",
-          "name": "LibatomicOps",
-          "version": ">=7.8.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
       "name": "Lcms2",
       "description": "Enable lcms2 support",
       "active": false,
@@ -315,48 +297,6 @@
           "port": "GraphicsLibraries-Main",
           "name": "Librsvg",
           "version": ">=2.56.3",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Libtiff",
-      "description": "Enable libtiff support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "GraphicsLibraries-Main",
-          "name": "Libtiff",
-          "version": ">=4.5.1",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Libwebp",
-      "description": "Enable libwebp support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "GraphicsLibraries-Main",
-          "name": "Libwebp",
-          "version": ">=1.3.1",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Libxml2",
-      "description": "Enable libxml2 support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "BaseLibraries-Main",
-          "name": "Libxml2",
-          "version": ">=2.10.4",
           "options": []
         }
       ],
@@ -399,90 +339,6 @@
           "port": "GraphicsLibraries-Main",
           "name": "Mesa",
           "version": ">=23.1.6",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Nss",
-      "description": "Enable nss support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "SecurityLibraries-Main",
-          "name": "Nss",
-          "version": ">=3.92.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Openldap",
-      "description": "Enable openldap support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "BaseLibraries-Main",
-          "name": "Openldap",
-          "version": ">=2.6.6",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Poppler",
-      "description": "Enable poppler support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "GraphicsLibraries-Main",
-          "name": "Poppler",
-          "version": ">=23.8.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Postgresql",
-      "description": "Enable postgresql support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "DatabaseLibraries-Main",
-          "name": "Postgresql",
-          "version": ">=15.4.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Redland",
-      "description": "Enable redland support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "BaseLibraries-Main",
-          "name": "Redland",
-          "version": ">=1.0.17",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "UnixOdbc",
-      "description": "Enable unixodbc support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "DatabaseLibraries-Main",
-          "name": "UnixOdbc",
-          "version": ">=2.3.12",
           "options": []
         }
       ],
