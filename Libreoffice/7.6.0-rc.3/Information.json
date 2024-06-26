@@ -77,7 +77,7 @@
       "port": "GraphicsLibraries-Main",
       "name": "Harfbuzz",
       "version": ">=8.1.1",
-      "options": []
+      "options": ["Graphite2"]
     },
     {
       "port": "BaseLibraries-Main",
