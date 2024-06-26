@@ -58,7 +58,7 @@
     {
       "port": "GraphicsLibraries-Main",
       "name": "Glm",
-      "version": ">=0.9.9-rc.8",
+      "version": ">=0.9.9-r.8",
       "options": []
     },
     {
