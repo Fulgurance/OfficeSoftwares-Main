@@ -59,16 +59,14 @@ class Target < ISM::Software
                                 --with-system-libtiff                                   \
                                 --with-system-libwebp                                   \
                                 --with-system-zlib",
-                path:           buildDirectoryPath,
-                asNormalUser:   true)
+                path:           buildDirectoryPath)
     end
 
     def build
         super
 
         makeSource( arguments:  "build",
-                    path:       buildDirectoryPath,
-                    asNormalUser:   true)
+                    path:       buildDirectoryPath)
     end
     
     def prepareInstallation
