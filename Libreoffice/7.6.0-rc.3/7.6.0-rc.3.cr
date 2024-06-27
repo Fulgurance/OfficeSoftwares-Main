@@ -76,6 +76,14 @@ class Target < ISM::Software
 
         makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}/#{Ism.settings.rootPath} distro-pack-install",
                     path:       buildDirectoryPath)
+
+        fileReplaceText(path:       "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/lib/libreoffice/share/xdg/draw.desktop",
+                        text:       "Categories=Office;FlowChart;Graphics;2DGraphics;VectorGraphics;X-Red-Hat-Base;",
+                        newText:    "Categories=Office;")
+
+        fileReplaceText(path:       "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/lib/libreoffice/share/xdg/math.desktop",
+                        text:       "Categories=Office;Education;Science;Math;X-Red-Hat-Base;",
+                        newText:    "Categories=Office;")
     end
 
     def install
