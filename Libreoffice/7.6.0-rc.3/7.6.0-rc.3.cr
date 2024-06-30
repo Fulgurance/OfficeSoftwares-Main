@@ -82,6 +82,8 @@ class Target < ISM::Software
         fileReplaceText(path:       "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/lib/libreoffice/share/xdg/math.desktop",
                         text:       "Categories=Office;Education;Science;Math;X-Red-Hat-Base;",
                         newText:    "Categories=Office;")
+
+        deleteFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/gid*")
     end
 
     def install
