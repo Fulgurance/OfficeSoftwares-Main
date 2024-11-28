@@ -457,20 +457,6 @@
       "kernelDependencies": []
     },
     {
-      "name": "Kde-Frameworks",
-      "description": "Enable kde-frameworks support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "KdeBase-Main",
-          "name": "Kde-Frameworks",
-          "version": ">=5.0.0 ~ <6.0.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
       "name": "Libpaper",
       "description": "Enable libpaper support",
       "active": false,
