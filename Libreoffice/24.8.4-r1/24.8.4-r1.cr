@@ -8,7 +8,7 @@ class Target < ISM::Software
                                 --sysconfdir=/etc                                       \
                                 --with-vendor=#{Ism.settings.systemName}                \
                                 --with-lang=\'en-GB\'                                   \
-                                --with-help                                             \
+                                --without-help                                          \
                                 --without-myspell-dicts                                 \
                                 --without-junit                                         \
                                 --without-system-dicts                                  \
