@@ -12,6 +12,7 @@ class Target < ISM::Software
                                 --with-myspell-dicts                                    \
                                 --without-junit                                         \
                                 --without-system-dicts                                  \
+                                --disable-fetch-external                                \
                                 --disable-dconf                                         \
                                 --disable-odk                                           \
                                 --without-java                                          \
@@ -44,8 +45,7 @@ class Target < ISM::Software
                                 --with-system-libtiff                                   \
                                 --with-system-libwebp                                   \
                                 --with-system-zlib",
-                path:           buildDirectoryPath,
-                environment:    {"PYTHONPATH" => "/usr/lib/python3.12/site-packages"})
+                path:           buildDirectoryPath)
     end
 
     def build
