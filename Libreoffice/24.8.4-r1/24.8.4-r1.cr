@@ -9,7 +9,7 @@ class Target < ISM::Software
                                 --with-vendor=#{Ism.settings.systemName}                \
                                 --with-lang=\'en-GB\'                                   \
                                 --with-help                                             \
-                                --with-myspell-dicts                                    \
+                                --without-myspell-dicts                                 \
                                 --without-junit                                         \
                                 --without-system-dicts                                  \
                                 --disable-fetch-external                                \
