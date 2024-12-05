@@ -20,7 +20,6 @@ class Target < ISM::Software
                                 --enable-python=system                                  \
                                 --with-jdk-home=/opt/jdk                                \
                                 #{option("Cups") ? "--enable-cups" : "--disable-cups"}  \
-                                --with-system-dragonbox                                 \
                                 --with-system-boost                                     \
                                 --with-system-clucene                                   \
                                 --with-system-curl                                      \
