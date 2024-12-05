@@ -44,7 +44,8 @@ class Target < ISM::Software
                                 --with-system-libtiff                                   \
                                 --with-system-libwebp                                   \
                                 --with-system-zlib",
-                path:           buildDirectoryPath)
+                path:           buildDirectoryPath,
+                environment:    {"PYTHONPATH" => "/usr/lib/python3.12/site-packages"})
     end
 
     def build
