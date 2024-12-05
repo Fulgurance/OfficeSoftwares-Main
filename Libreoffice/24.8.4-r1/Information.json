@@ -144,6 +144,12 @@
       "name": "UnixOdbc",
       "version": ">=2.3.12",
       "options": []
+    },
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Setuptools",
+      "version": ">=75.3.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
