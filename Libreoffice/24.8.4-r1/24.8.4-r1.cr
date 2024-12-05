@@ -11,8 +11,6 @@ class Target < ISM::Software
                                 --without-help                                          \
                                 --without-myspell-dicts                                 \
                                 --without-junit                                         \
-                                --without-system-dicts                                  \
-                                --with-system-dragonbox                                 \
                                 --disable-fetch-external                                \
                                 --disable-dconf                                         \
                                 --disable-odk                                           \
@@ -21,6 +19,8 @@ class Target < ISM::Software
                                 --enable-python=system                                  \
                                 --with-jdk-home=/opt/jdk                                \
                                 #{option("Cups") ? "--enable-cups" : "--disable-cups"}  \
+                                --without-system-dicts                                  \
+                                --with-system-dragonbox                                 \
                                 --with-system-boost                                     \
                                 --with-system-clucene                                   \
                                 --with-system-curl                                      \
