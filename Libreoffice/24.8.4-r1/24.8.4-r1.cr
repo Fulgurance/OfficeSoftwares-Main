@@ -12,7 +12,7 @@ class Target < ISM::Software
                                 --without-myspell-dicts                                 \
                                 --without-junit                                         \
                                 --without-system-dicts                                  \
-                                --without-system-dragonbox                              \
+                                --with-system-dragonbox                                 \
                                 --disable-fetch-external                                \
                                 --disable-dconf                                         \
                                 --disable-odk                                           \
