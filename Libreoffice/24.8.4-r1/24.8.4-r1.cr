@@ -20,7 +20,7 @@ class Target < ISM::Software
                                 --with-jdk-home=/opt/jdk                                \
                                 #{option("Cups") ? "--enable-cups" : "--disable-cups"}  \
                                 --without-system-dicts                                  \
-                                --with-system-dragonbox                                 \
+                                --without-dragonbox                                     \
                                 --with-system-boost                                     \
                                 --with-system-clucene                                   \
                                 --with-system-curl                                      \
