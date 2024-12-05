@@ -8,9 +8,10 @@ class Target < ISM::Software
                                 --sysconfdir=/etc                                       \
                                 --with-vendor=#{Ism.settings.systemName}                \
                                 --with-lang=\'en-GB\'                                   \
-                                --without-help                                          \
-                                --without-myspell-dicts                                 \
+                                --with-help                                             \
+                                --with-myspell-dicts                                    \
                                 --without-junit                                         \
+                                --without-system-dicts                                  \
                                 --disable-fetch-external                                \
                                 --disable-dconf                                         \
                                 --disable-odk                                           \
@@ -19,7 +20,6 @@ class Target < ISM::Software
                                 --enable-python=system                                  \
                                 --with-jdk-home=/opt/jdk                                \
                                 #{option("Cups") ? "--enable-cups" : "--disable-cups"}  \
-                                --with-system-dicts                                     \
                                 --with-system-dragonbox                                 \
                                 --with-system-boost                                     \
                                 --with-system-clucene                                   \
