@@ -131,7 +131,7 @@
       "port": "DatabaseLibraries-Main",
       "name": "Postgresql",
       "version": ">=15.4.0",
-      "options": ["Krb5"]
+      "options": []
     },
     {
       "port": "BaseLibraries-Main",
