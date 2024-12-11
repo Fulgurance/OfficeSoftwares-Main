@@ -24,7 +24,7 @@ class Target < ISM::Software
                                 --with-lang=\'en-GB\'                                   \
                                 --disable-fetch-external                                \
                                 --with-help                                             \
-                                --with-myspell-dicts                                    \
+                                --without-myspell-dicts                                 \
                                 --without-junit                                         \
                                 --without-system-dicts                                  \
                                 --disable-dconf                                         \
