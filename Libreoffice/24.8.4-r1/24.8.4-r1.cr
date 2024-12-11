@@ -53,7 +53,7 @@ class Target < ISM::Software
                                 --with-system-openldap                                  \
                                 --with-system-openssl                                   \
                                 --with-system-poppler                                   \
-                                --with-system-postgresql                                \
+                                --without-system-postgresql                             \
                                 --with-system-redland                                   \
                                 --with-system-libtiff                                   \
                                 --with-system-libwebp                                   \
