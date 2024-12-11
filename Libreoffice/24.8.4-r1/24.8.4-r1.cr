@@ -59,7 +59,9 @@ class Target < ISM::Software
                                 --with-system-libtiff                                   \
                                 --with-system-libwebp                                   \
                                 --with-system-zlib                                      \
-                                --with-system-libcdr",
+                                --with-system-libcdr                                    \
+                                --with-system-librevenge                                \
+                                --with-system-cppunit",
                 path:           buildDirectoryPath)
     end
 
