@@ -22,9 +22,8 @@ class Target < ISM::Software
                                 --sysconfdir=/etc                                       \
                                 --with-vendor=#{Ism.settings.systemName}                \
                                 --with-lang=\'en-GB\'                                   \
-                                --disable-fetch-external                                \
                                 --with-help                                             \
-                                --without-myspell-dicts                                 \
+                                --with-myspell-dicts                                    \
                                 --without-junit                                         \
                                 --without-system-dicts                                  \
                                 --disable-dconf                                         \
