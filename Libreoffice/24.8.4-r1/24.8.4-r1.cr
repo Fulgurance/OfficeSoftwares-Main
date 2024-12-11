@@ -58,7 +58,8 @@ class Target < ISM::Software
                                 --with-system-redland                                   \
                                 --with-system-libtiff                                   \
                                 --with-system-libwebp                                   \
-                                --with-system-zlib",
+                                --with-system-zlib                                      \
+                                --with-system-libcdr",
                 path:           buildDirectoryPath)
     end
 
