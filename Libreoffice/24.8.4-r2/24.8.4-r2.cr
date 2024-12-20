@@ -6,7 +6,7 @@ class Target < ISM::Software
 
         fileReplaceTextAtLineNumber(path:       "#{buildDirectoryPath}/Makefile.in",
                                     text:       "check-if-root compilerplugins",
-                                    newText:    "compilerplugins".
+                                    newText:    "compilerplugins",
                                     lineNumber: 284)
     end
     
