@@ -8,6 +8,16 @@ class Target < ISM::Software
                                     text:       "check-if-root compilerplugins",
                                     newText:    "compilerplugins",
                                     lineNumber: 284)
+
+        makeLink(   target: "src/libreoffice-help-24.8.4.2/helpcontent2",
+            path:   "#{buildDirectoryPath}/helpcontent2",
+            type:   :symbolicLinkByOverwrite)
+        makeLink(   target: "src/libreoffice-dictionaries-24.8.4.2/dictionaries",
+                    path:   "#{buildDirectoryPath}/dictionaries",
+                    type:   :symbolicLinkByOverwrite)
+        makeLink(   target: "src/libreoffice-translations-24.8.4.2/translations",
+                    path:   "#{buildDirectoryPath}/translations",
+                    type:   :symbolicLinkByOverwrite)
     end
     
     def configure
