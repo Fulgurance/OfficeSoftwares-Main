@@ -1,7 +1,7 @@
 {
   "port": "OfficeSoftwares-Main",
   "name": "Libreoffice",
-  "version": "24.8.4-r1",
+  "version": "24.8.4-r2",
   "architectures": ["x86_64"],
   "description": "Free and powerful office suite",
   "website": "https://www.libreoffice.org/",
