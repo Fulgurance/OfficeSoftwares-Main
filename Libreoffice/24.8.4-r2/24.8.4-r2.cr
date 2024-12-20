@@ -1,4 +1,14 @@
 class Target < ISM::Software
+
+    def prepare
+        super
+        #BYPASS ROOT CHECK (Temporary)
+
+        fileReplaceTextAtLineNumber(path:       "#{buildDirectoryPath}/Makefile.in",
+                                    text:       "check-if-root compilerplugins",
+                                    newText:    "compilerplugins".
+                                    lineNumber: 284)
+    end
     
     def configure
         super
