@@ -156,6 +156,12 @@
       "name": "Setuptools",
       "version": ">=75.3.0",
       "options": []
+    },
+    {
+      "port": "BaseLibraries-Main",
+      "name": "Libfreehand",
+      "version": ">=0.1.2",
+      "options": []
     }
   ],
   "kernelDependencies": [],
