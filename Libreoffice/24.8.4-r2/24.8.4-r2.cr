@@ -66,7 +66,7 @@ class Target < ISM::Software
                                 --with-system-zlib                                      \
                                 --with-system-libcdr                                    \
                                 --with-system-librevenge                                \
-                                --without-system-libfreehand                            \
+                                --with-system-libfreehand                               \
                                 --with-system-cppunit",
                 path:           buildDirectoryPath)
     end
