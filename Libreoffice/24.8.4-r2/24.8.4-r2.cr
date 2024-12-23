@@ -68,6 +68,7 @@ class Target < ISM::Software
                                 --with-system-librevenge                                \
                                 --with-system-libfreehand                               \
                                 --with-system-libzmf                                    \
+                                --with-system-libmspub                                  \
                                 --with-system-cppunit",
                 path:           buildDirectoryPath)
     end
