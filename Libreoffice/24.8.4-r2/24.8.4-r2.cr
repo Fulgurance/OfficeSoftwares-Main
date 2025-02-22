@@ -2,12 +2,6 @@ class Target < ISM::Software
 
     def prepare
         super
-        #BYPASS ROOT CHECK (Temporary)
-
-        fileReplaceTextAtLineNumber(path:       "#{buildDirectoryPath}/Makefile.in",
-                                    text:       "check-if-root compilerplugins",
-                                    newText:    "compilerplugins",
-                                    lineNumber: 284)
 
         makeLink(   target: "src/libreoffice-help-24.8.4.2/helpcontent2",
             path:   "#{buildDirectoryPath}/helpcontent2",
@@ -95,7 +89,7 @@ class Target < ISM::Software
                         newText:    "Categories=Office;")
     end
 
-    def install
+    def install(asNormalUser = true)
         super
 
         if option("Desktop-File-Utils")
