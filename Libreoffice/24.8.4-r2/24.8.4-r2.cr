@@ -89,7 +89,7 @@ class Target < ISM::Software
                         newText:    "Categories=Office;")
     end
 
-    def install(asNormalUser = true)
+    def install
         super
 
         if option("Desktop-File-Utils")
