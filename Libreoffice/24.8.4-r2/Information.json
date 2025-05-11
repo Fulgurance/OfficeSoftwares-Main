@@ -277,15 +277,15 @@
       "kernelDependencies": []
     },
     {
-      "name": "Gst-Plugins-Base",
-      "description": "Enable gst-plugins-base support",
+      "name": "Gstreamer",
+      "description": "Enable gstreamer support",
       "active": false,
       "dependencies": [
         {
           "port": "MultimediaLibraries-Main",
-          "name": "Gst-Plugins-Base",
-          "version": ">=1.22.5",
-          "options": []
+          "name": "Gstreamer",
+          "version": ">=1.26.1",
+          "options": ["Base"]
         }
       ],
       "kernelDependencies": []
